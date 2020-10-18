@@ -9,7 +9,7 @@ public class Pruebas {
         //  porque el abecedario español contiene una "ñ" adicional
 
         // Encriptamos el texto
-        System.out.println(vigenere.encriptarTextoClaro("JUAN PABLO REINA", "MILLONES"));
+        System.out.println(vigenere.encriptarTextoClaro("JUAN PABLO REINA ", "MILLONES"));
 
         System.out.println("Ahora desencriptamos el resultado anterior..");
 
